@@ -1,14 +1,14 @@
 <?php
 
 // la connexion à la base de données pour Docker et WAMP
-//$servername = 'database';
+$servername = 'database';
 $username = 'root';
-//$pass = 'root';
+$pass = 'root';
 $dbname = 'getflix';
 
 // Connexion WAMP:
-$servername = "localhost";
-$pass = '';
+// $servername = "localhost";
+// $pass = '';
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $pass);

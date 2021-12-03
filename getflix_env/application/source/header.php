@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-black py-2">
     <div class="container-fluid">
-        <a class="navbar-brand px-4" href="./main.php">
+        <a class="navbar-brand px-4" href="./index.php">
             <img src="./img/logo_room237.svg"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-lg-0">
                 <li class="nav-item mx-4 my-auto">
-                    <a class="nav-link active" aria-current="page" href="./main.php">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
                 </li>
                 <?php if (isset($_SESSION['user'])) : ?>
                     <li class="nav-item mx-4 my-auto">

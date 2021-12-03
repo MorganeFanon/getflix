@@ -121,7 +121,7 @@ if (!empty($_POST)) {
 
                 // On peut rediriger l'utilisateur
                 //header("profile: index.php");
-                header('Location: ./main.php');
+                header('Location: ./index.php');
             }
         }
     } else {

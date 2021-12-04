@@ -37,6 +37,7 @@ async function showMovieData() {
     result = result.data.results;
 
     result.map(function (cur, index){
+        if (cur.poster_path != null) {
         sliders.insertAdjacentHTML(
             "beforeend",
             `<form action="" method="GET" class="form_movie img-${index}" name="movie" value="${cur.id}">
@@ -44,7 +45,7 @@ async function showMovieData() {
                     <img style="max-width: 154px;" id="${cur.id}" src="https://image.tmdb.org/t/p/w154/${cur.poster_path}" class="img_poster" alt="${cur.id}">
                 </a>
             </form>`
-        )
+        ) }
     })
 
     //scrollPerClick = document.querySelector(".img-1").clientWidth + imagePadding;

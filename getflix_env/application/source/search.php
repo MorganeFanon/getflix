@@ -8,7 +8,7 @@ if (isset($_GET["search2"])) {
     $mot = $_GET["search2"];
 }
 
-$key = "api_key=4080ddd8f97d6721f32f9d82aba61857";
+$key = "api_key=<<api_key>>";
 //$genres = "&with_genres=27";
 
 $curl = curl_init("https://api.themoviedb.org/3/search/movie?" . $key . "&language=en-US&query=" . $mot . "&include_adult=false");

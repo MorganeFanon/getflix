@@ -1,4 +1,4 @@
-//const API_KEY = "api_key=4080ddd8f97d6721f32f9d82aba61857";
+//const API_KEY = "api_key=<<api_key>>";
 const HORROR_LATEST = "https://api.themoviedb.org/3/movie/upcoming?" + API_KEY + "&with_genres=27&language=en-US&page=1";
 
 //https://api.themoviedb.org/3/movie/upcoming?api_key=<<api_key>>&language=en-US&page=1

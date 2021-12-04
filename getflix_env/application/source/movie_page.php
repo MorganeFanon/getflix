@@ -8,7 +8,7 @@ if (isset($_GET['id'])) {
     echo 'There is a problem loading the content.';
 }
 
-$key = 'api_key=4080ddd8f97d6721f32f9d82aba61857';
+$key = 'api_key=<<api_key>>';
 $curl = curl_init(
     'http://api.themoviedb.org/3/movie/' .
         $id .

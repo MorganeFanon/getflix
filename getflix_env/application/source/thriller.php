@@ -1,5 +1,5 @@
 <?php
-$key = "api_key=4080ddd8f97d6721f32f9d82aba61857";
+$key = "api_key=<<api_key>>";
 $genres = "&with_genres=27";
 $thriller = ",53";
 

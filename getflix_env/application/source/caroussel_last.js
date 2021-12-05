@@ -1,4 +1,4 @@
-//const API_KEY = "api_key=4080ddd8f97d6721f32f9d82aba61857";
+//const API_KEY = "api_key=<<api_key>>";
 const HORROR_LATEST = "https://api.themoviedb.org/3/movie/upcoming?" + API_KEY + "&with_genres=27&language=en-US&page=1";
 
 //https://api.themoviedb.org/3/movie/upcoming?api_key=<<api_key>>&language=en-US&page=1
@@ -37,6 +37,7 @@ async function showMovieData() {
     result = result.data.results;
 
     result.map(function (cur, index){
+        if (cur.poster_path != null) {
         sliders.insertAdjacentHTML(
             "beforeend",
             `<form action="" method="GET" class="form_movie img-${index}" name="movie" value="${cur.id}">
@@ -44,7 +45,7 @@ async function showMovieData() {
                     <img style="max-width: 154px;" id="${cur.id}" src="https://image.tmdb.org/t/p/w154/${cur.poster_path}" class="img_poster" alt="${cur.id}">
                 </a>
             </form>`
-        )
+        ) }
     })
 
     //scrollPerClick = document.querySelector(".img-1").clientWidth + imagePadding;

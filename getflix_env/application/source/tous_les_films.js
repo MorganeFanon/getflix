@@ -1,4 +1,4 @@
-//const API_KEY = "api_key=4080ddd8f97d6721f32f9d82aba61857";
+//const API_KEY = "api_key=<<api_key>>";
 var HORROR = "https://api.themoviedb.org/3/discover/movie?" + API_KEY + "&with_genres=27";
 
 // How to fetch general data from a movie

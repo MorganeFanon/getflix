@@ -1,4 +1,5 @@
-const API_KEY = "api_key=4080ddd8f97d6721f32f9d82aba61857";
+// API key has to be updated if you want the code to work! 
+const API_KEY = "api_key=<<api_key>>";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 const IMG_URL = "https://image.tmdb.org/t/p/w200/";

@@ -156,7 +156,7 @@ function setGenre(button, text) {
 
 
 // On va dans:
-// https://api.themoviedb.org/3/discover/movie?api_key=4080ddd8f97d6721f32f9d82aba61857&with_genres=27
+
 // dans results
 
 

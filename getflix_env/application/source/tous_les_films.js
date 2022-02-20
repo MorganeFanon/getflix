@@ -2,7 +2,7 @@
 var HORROR = "https://api.themoviedb.org/3/discover/movie?" + API_KEY + "&with_genres=27";
 
 // How to fetch general data from a movie
-// https://api.themoviedb.org/3/movie/576845?api_key=4080ddd8f97d6721f32f9d82aba61857;
+
 
 
 // tous les genres
@@ -156,7 +156,7 @@ function setGenre(button, text) {
 
 
 // On va dans:
-// https://api.themoviedb.org/3/discover/movie?api_key=4080ddd8f97d6721f32f9d82aba61857&with_genres=27
+
 // dans results
 
 
